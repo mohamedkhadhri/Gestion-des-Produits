@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #f0f8ff; /* Light blue background */
+}
+.container {
+    flex: 1;
+}
+.sidebar {
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Dégradation de bleu */
+    padding: 20px;
+    color: white;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+}
+.content {
+    margin-left: 260px;
+    padding: 20px;
+}
+.nav-link {
+    color: white;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+.nav-link:hover {
+    color: #ffc107;
+}
+.table td, .table th {
+    vertical-align: middle;
+    text-align: center;
+    padding: 20px!important;
+}
+.table thead {
+    background-color: #1e3c72;
+    color: white;
+}
+.table tbody tr:nth-child(even) {
+    background-color: #e3f2fd; /* Light blue */
+}
+.table tbody tr:hover {
+    background-color: #bbdefb; /* Slightly darker blue */
+}
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6;
+}
+.found {
+    background-color: #dff0d8 !important; /* Green background for found rows */
+}
+.btn-add {
+    background-color: #28a745; /* Green */
+    color: white;
+    border: none;
+}
+.btn-add:hover {
+    background-color: #218838; /* Dark green */
+}
+.btn-edit {
+    background-color: #ffc107; /* Yellow */
+    color: black;
+    border: none;
+}
+.btn-edit:hover {
+    background-color: #e0a800; /* Dark yellow */
+}
+.btn-delete {
+    background-color: #dc3545; /* Red */
+    color: white;
+    border: none;
+}
+.btn-delete:hover {
+    background-color: #c82333; /* Dark red */
+}

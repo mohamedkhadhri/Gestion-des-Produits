@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #f0f8ff; /* Light blue background */
+}
+.container {
+    flex: 1;
+}
+.sidebar {
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Dégradation de bleu */
+    padding: 20px;
+    color: white;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+}
+.content {
+    margin-left: 260px;
+    padding: 20px;
+}
+.form-element {
+    margin-bottom: 20px;
+}
+.form-control {
+    padding: 10px;
+    font-size: 1rem;
+}
+.textarea-control {
+    height: 150px;
+}
